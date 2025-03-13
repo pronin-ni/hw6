@@ -28,6 +28,10 @@ public class Main {
         System.out.println("Переполненное значение float: " + (f * 2));
         System.out.println("Переполненное значение double: " + (d * 2));
         System.out.println("Результат деления 0.0/0.0: " + (0.0 / 0.0));
+        f = Float.MIN_VALUE;
+        System.out.println("Минимальное значение float = " + f);
+        System.out.println("Результат деления минимального значения float на 10 = " + (f / 10));
+
 
 
 
